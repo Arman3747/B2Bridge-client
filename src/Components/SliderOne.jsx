@@ -7,7 +7,7 @@ const SliderOne = () => {
                 <img src="https://i.ibb.co/6c66QWkN/b2bridge-slider-one.png" alt="" />
             </div>
             <div className='w-full lg:w-1/2 my-8'>
-                <h3 className='text-4xl font-semibold text-center md:text-left'>Easy & Convenient Ordering !</h3>
+                <h3 className='text-4xl underline decoration-green-500 font-semibold text-center md:text-left'>Easy & Convenient Ordering !</h3>
                 <p className='text-2xl text-zinc-500 mt-8 text-center md:text-left'>A simple visual interface that provides a logical and easy way to find and add products.</p>
             </div>
         </div>

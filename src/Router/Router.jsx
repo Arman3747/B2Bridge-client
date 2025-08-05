@@ -15,6 +15,9 @@ import Categories from "../Components/Categories";
 import ProductDetails from "../Components/ProductDetails";
 import UpdateProduct from "../Components/UpdateProduct";
 import CartPage from "../Components/CartPage";
+import Terms from "../Components/Terms";
+import Privacy from "../Components/Privacy ";
+import AboutUs from "../Components/AboutUs";
 
 
 const router = createBrowserRouter([
@@ -84,12 +87,27 @@ const router = createBrowserRouter([
                 hydrateFallbackElement: <Loading></Loading>,
             },
             {
+                path: "/terms",
+                element: <Terms></Terms>,
+                
+            },
+            {
+                path: "/privacy",
+                element: <Privacy></Privacy>,
+                
+            },
+            {
+                path: "/aboutUs",
+                element: <AboutUs></AboutUs>,
+                
+            },
+            {
                 path: "/login",
-                element: <Login></Login>
+                element: <Login></Login>,
             },
             {
                 path: "/register",
-                element: <Register></Register>
+                element: <Register></Register>,
             }
         ]
     },

@@ -7,7 +7,7 @@ const SliderThree = () => {
                 <img src="https://i.ibb.co/PzwgSg0X/b2bridge-slider-three.png" alt="" />
             </div>
             <div className='w-full lg:w-1/2 my-8'>
-                <h3 className='text-4xl font-semibold text-center md:text-left' >Cart Details</h3>
+                <h3 className='text-4xl underline decoration-green-500 font-semibold text-center md:text-left' >Cart Details</h3>
                 <p className='text-2xl text-zinc-500 mt-8 text-center md:text-left'>Allow users to change quantities, delete cart items so they don't have to go back in the purchasing flow to adjust items to their preference.</p>
             </div>
         </div>

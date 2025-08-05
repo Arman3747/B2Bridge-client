@@ -5,11 +5,13 @@ import { Link } from 'react-router';
 const BestSeller = () => {
     return (
         <div>
-            <div className='grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-12 bg-emerald-50 p-4 lg:p-16 border-2 border-green-50 shadow-2xl'>
+            <div className='grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-12 bg-green-50 rounded-md p-4 lg:p-16 border-2 border-green-50 shadow-2xl'>
                 <div className='col-span-2 p-4'>
 
                     <h3 className='text-zinc-950 text-6xl font-bold'>
-                        <motion.span
+
+                        <span className='text-green-500'> Select Categories </span>
+                        {/* <motion.span
                             animate={
                                 {
                                     color: ['#00a6f4', '#00b8db', '#00bba7', '#00bc7d', '#00c950', '#00bc7d', '#00bba7', '#00b8db'],
@@ -17,7 +19,7 @@ const BestSeller = () => {
                                 }}
                         >
                             Select Categories
-                        </motion.span>
+                        </motion.span> */}
                     </h3>
 
                     <p className='text-2xl text-zinc-950 font-medium my-4'>

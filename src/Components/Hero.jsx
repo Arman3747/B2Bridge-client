@@ -9,7 +9,8 @@ const Hero = () => {
             <div className='w-full lg:w-1/2'>
                 <h1 className='text-5xl  font-bold leading-16'>
                     Simplify Operations  For Your <br />  
-                    <motion.span
+                    <span className='text-green-500'> Fast-Growing </span>
+                    {/* <motion.span
                     animate={
                         {
                             color: ['#00a6f4','#00b8db','#00bba7','#00bc7d','#00c950','#00bc7d','#00bba7','#00b8db'],
@@ -17,7 +18,7 @@ const Hero = () => {
                         }}
                     >
                         Fast-Growing
-                    </motion.span> 
+                    </motion.span>  */}
                      Brands
                 </h1>
                 <div className='text-2xl mt-8 text-zinc-500'>

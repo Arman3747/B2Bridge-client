@@ -24,19 +24,20 @@ const HeroProducts = ({ products }) => {
     }
 
     return (
-        <div className='p-2 lg:p-12 my-24 bg-emerald-50 shadow-2xl rounded-2xl'>
+        <div className='p-2 lg:p-12 my-24 bg-green-50 shadow-2xl rounded-md'>
 
             <h3 className='text-5xl font-bold text-center py-12'>
                 Find the right products for <br />  your store — &nbsp;
+                <span className='text-green-500'> easily ! </span>
 
-                <motion.span
+                {/* <motion.span
                     animate={
                         {
                             color: ['#00a6f4', '#00b8db', '#00bba7', '#00bc7d', '#00c950', '#00bc7d', '#00bba7', '#00b8db'],
                             transition: { duration: 15, repeat: Infinity },
                         }}>
                     easily !
-                </motion.span>
+                </motion.span> */}
             </h3>
 
             <div className='flex justify-center items-center mb-24'>
