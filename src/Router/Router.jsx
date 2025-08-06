@@ -18,6 +18,8 @@ import CartPage from "../Components/CartPage";
 import Terms from "../Components/Terms";
 import Privacy from "../Components/Privacy ";
 import AboutUs from "../Components/AboutUs";
+import DashboardLayout from "../Layouts/DashboardLayout";
+import DashboardHome from "../Components/DashboardHome";
 
 
 const router = createBrowserRouter([
@@ -89,17 +91,17 @@ const router = createBrowserRouter([
             {
                 path: "/terms",
                 element: <Terms></Terms>,
-                
+
             },
             {
                 path: "/privacy",
                 element: <Privacy></Privacy>,
-                
+
             },
             {
                 path: "/aboutUs",
                 element: <AboutUs></AboutUs>,
-                
+
             },
             {
                 path: "/login",
@@ -109,6 +111,19 @@ const router = createBrowserRouter([
                 path: "/register",
                 element: <Register></Register>,
             }
+        ]
+    },
+    {
+        path: '/dashboard',
+        element: <PrivateRoute>
+            <DashboardLayout></DashboardLayout>
+        </PrivateRoute>,
+        errorElement: <ErrorPage></ErrorPage>,
+        children: [
+            {
+                index: true,
+                element: <DashboardHome></DashboardHome>,
+            },
         ]
     },
     // {

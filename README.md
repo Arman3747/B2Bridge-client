@@ -46,5 +46,16 @@ In this Web App, you can post a product for sale and also buy a product.
 - Uses [Axios](https://axios-http.com/) for making HTTP requests from client to server. 
 - Uses [Netlify](https://www.netlify.com/) for deploys, hosts websites. 
 
+## Technologies Used
+
+- ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v4.1.8-4f39f6?logo=tailwindcss)
+- ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v4.1.8-blue?logo=tailwindcss)
+- ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v4.1.8-155dfc?logo=tailwindcss)
+- ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v4.1.8-00c950?logo=tailwindcss)
+- ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v4.1.8-020618?logo=tailwindcss)
+- ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v4.1.8-ffffff?logo=tailwindcss)
+
+- ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v4.1.8-155dfc?logo=tailwindcss)
+
 
 ### Thank you for Reading!

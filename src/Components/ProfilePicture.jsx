@@ -1,5 +1,5 @@
 import React, { use } from 'react';
-import { useNavigate } from 'react-router';
+import { Link, useNavigate } from 'react-router';
 import { AuthContext } from '../provider/AuthProvider';
 import { ToastContainer, toast } from 'react-toastify';
 import { Tooltip } from 'react-tooltip';
@@ -27,6 +27,15 @@ const ProfilePicture = () => {
             </div>
             <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
                 {/* <li><p className='btn btn-outline  btn-neutral btn-active mb-2'>{user.displayName ? user.displayName : "¯\\_(ツ)_/¯"}</p></li> */}
+
+                <Link to='/'>
+                    <li><p className='btn btn-neutral btn-outline hover:text-white mb-2' >Home</p></li>
+                </Link>
+
+                <Link to='/dashboard'>
+                    <li><p className='btn btn-neutral btn-outline hover:text-white mb-2' >Dashboard</p></li>
+                </Link>
+
                 <li><p className='btn btn-error btn-outline hover:text-white' onClick={handleLogOut}>Logout</p></li>
             </ul>
             <ToastContainer autoClose={2000} />
