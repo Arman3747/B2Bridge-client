@@ -15,7 +15,7 @@ const NavBar = () => {
 
     return (
         <div className='max-w-[1600px] mx-auto p-4 border-b border-green-500'>
-            <div className='flex gap-2 flex-row justify-between items-center sm:px-4 md:px-20 py-2'>
+            <div className='flex gap-2 flex-row justify-between items-center sm:px-4 py-2'>
                 <Link to="/">
                     <img className='h-[56px]' src="https://i.ibb.co/5gXYyPp8/white-logo-2.png" alt="Logo" />
                 </Link>
